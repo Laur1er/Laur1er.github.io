@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laurier — Portfolio informatique quantique</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="wire" aria-hidden="true"></div>
+
+<header class="hero">
+  <p class="eyebrow">|ψ⟩ = α|0⟩ + β|1⟩</p>
+  <h1>Laurier <span class="accent">Nom-de-famille</span></h1>
+  <p class="tagline">J'explore les algorithmes quantiques variationnels et l'optimisation sur hardware NISQ — Qiskit, Cirq, et beaucoup de bruit à apprivoiser.</p>
+  <nav class="hero-links">
+    <a href="https://github.com/Laur1er" target="_blank" rel="noopener">GitHub</a>
+    <a href="#projects">Projets</a>
+    <a href="mailto:ton.email@exemple.com">Contact</a>
+  </nav>
+</header>
+
+<div class="node" aria-hidden="true"></div>
+
+<main>
+
+  <section class="about" id="about">
+    <h2><span class="tag">01</span> À propos</h2>
+    <p>
+      Étudiant·e en informatique quantique, je m'intéresse particulièrement à
+      <strong>[ton axe de recherche — ex. les algorithmes variationnels, l'optimisation combinatoire, la correction d'erreurs]</strong>.
+      Ce site rassemble mes projets, du code aux résultats, avec une attention particulière aux limites
+      réelles du hardware actuel plutôt qu'aux promesses marketing du domaine.
+    </p>
+    <p class="stack">
+      <span>Qiskit</span><span>Cirq</span><span>Python</span><span>NumPy</span><span>IBM Quantum</span>
+    </p>
+  </section>
+
+  <div class="node" aria-hidden="true"></div>
+
+  <section class="projects" id="projects">
+    <h2><span class="tag">02</span> Projets</h2>
+
+    <article class="project">
+      <div class="project-head">
+        <h3>Nom du projet 1</h3>
+        <span class="backend">IBM Quantum · 7 qubits</span>
+      </div>
+      <p class="problem">
+        <strong>Problème —</strong> décris en une phrase ce que tu cherchais à résoudre et pourquoi c'est intéressant.
+      </p>
+      <p class="approach">
+        <strong>Approche —</strong> VQE / QAOA / autre, backend utilisé, profondeur de circuit, ansatz choisi.
+      </p>
+      <p class="results">
+        <strong>Résultats —</strong> fidélité obtenue, comparaison avec une baseline classique, limites observées (bruit, décohérence...).
+      </p>
+      <div class="project-links">
+        <a href="#">Code →</a>
+        <a href="#">Notes techniques →</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-head">
+        <h3>Nom du projet 2</h3>
+        <span class="backend">Simulateur · Aer</span>
+      </div>
+      <p class="problem">
+        <strong>Problème —</strong> [à compléter]
+      </p>
+      <p class="approach">
+        <strong>Approche —</strong> [à compléter]
+      </p>
+      <p class="results">
+        <strong>Résultats —</strong> [à compléter]
+      </p>
+      <div class="project-links">
+        <a href="#">Code →</a>
+      </div>
+    </article>
+
+  </section>
+
+  <div class="node" aria-hidden="true"></div>
+
+  <section class="contact" id="contact">
+    <h2><span class="tag">03</span> Contact</h2>
+    <p>Toujours ouvert·e à discuter algorithmes quantiques, hardware NISQ, ou collaborations.</p>
+    <p class="contact-links">
+      <a href="mailto:ton.email@exemple.com">ton.email@exemple.com</a>
+      <a href="https://github.com/Laur1er" target="_blank" rel="noopener">github.com/Laur1er</a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>Construit à la main. Dernière mesure de l'état : <span id="year"></span>.</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
