@@ -3,109 +3,128 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Laurier — Portfolio informatique quantique</title>
+<title>À propos</title>
 <link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<div class="wire" aria-hidden="true"></div>
+<div class="page">
 
-<header class="hero">
-  <p class="eyebrow">|ψ⟩ = α|0⟩ + β|1⟩</p>
-  <h1>Laurier <span class="accent">Nom-de-famille</span></h1>
-  <p class="tagline">J'explore les algorithmes quantiques variationnels et l'optimisation sur hardware NISQ — Qiskit, Cirq, et beaucoup de bruit à apprivoiser.</p>
-  <nav class="hero-links">
-    <a href="https://github.com/Laur1er" target="_blank" rel="noopener">GitHub</a>
-    <a href="#projects">Projets</a>
-    <a href="mailto:ton.email@exemple.com">Contact</a>
-  </nav>
-</header>
+  <div class="lang-switch">
+    <button data-lang="fr" class="active">FR</button>
+    <button data-lang="en">EN</button>
+  </div>
 
-<div class="node" aria-hidden="true"></div>
+  <div class="content-box">
+    <div class="text">
+      <h2 data-fr="Bienvenue sur mon portfolio!" data-en="Welcome to my portfolio!">
+        Welcome to my portfolio!
+      </h2>
+      <p data-fr="Je m'appelle <b>Laurier Perron</b>, je suis étudiant à l'Université de Sherbrooke en <b>sciences de l'information quantique</b>. Ici, tu découvriras ce que je fais, ce que j'aime faire dans mes temps libres, et avec un peu de chance tu apprendras des trucs sur le quantique!<br><br>Bon, assez jasé. Vas-y, explore!"
+         data-en="My name is <b>Laurier Perron</b>, I am a student at the Université de Sherbrooke studying <b>quantum information science</b>. Here, you'll find out what I've been up to, what I do in my free time, and hopefully you'll learn some quantum stuff!<br><br>Now, I'm done with the chitchat. Go on, explore!">
+        My name is <b>Laurier Perron</b>, I am a student at the Université de Sherbrooke studying <b>quantum information science</b>. 
+        Here, you'll find out what I've been up to, what I do in my free time, and hopefully you'll learn some quantum stuff!
+        <br>
+        <br>
+        Now, I'm done with the chitchat. Go on, explore!
+      </p>
+    </div>
+    <div class="photo">
+      <img src="images/profil.jpg" 
+           data-fr="C'est moi, au cas où t'aurais pas encore compris" 
+           data-en="This is me, in case you haven't figured yet"
+           alt="This is me, in case you haven't figured yet">
+    </div>
+</div>
+<br>
 
-<main>
+<nav class="menu">
+  <a href="#" data-target="about-me" data-fr="À propos de moi" data-en="About me">About me</a>
+  <a href="#" data-target="quantum-projects" data-fr="Projets quantiques" data-en="Quantum projects">Quantum projects</a>
+  <a href="#" data-target="hackathons">Hackathons</a>
+  <a href="#" data-target="empire-estrie">EMPIRE Estrie</a>
+</nav>
 
-  <section class="about" id="about">
-    <h2><span class="tag">01</span> À propos</h2>
-    <p>
-      Étudiant·e en informatique quantique, je m'intéresse particulièrement à
-      <strong>[ton axe de recherche — ex. les algorithmes variationnels, l'optimisation combinatoire, la correction d'erreurs]</strong>.
-      Ce site rassemble mes projets, du code aux résultats, avec une attention particulière aux limites
-      réelles du hardware actuel plutôt qu'aux promesses marketing du domaine.
-    </p>
-    <p class="stack">
-      <span>Qiskit</span><span>Cirq</span><span>Python</span><span>NumPy</span><span>IBM Quantum</span>
-    </p>
-  </section>
-
-  <div class="node" aria-hidden="true"></div>
-
-  <section class="projects" id="projects">
-    <h2><span class="tag">02</span> Projets</h2>
-
-    <article class="project">
-      <div class="project-head">
-        <h3>Nom du projet 1</h3>
-        <span class="backend">IBM Quantum · 7 qubits</span>
+<div class="sections">
+  <section id="about-me" class="content-section">
+    <!-- About me -->
+     <br>
+     <h1 data-en="Where I come from:" data-fr="Mon coin de pays:">Where I come from:</h1>
+     <iframe 
+        src="https://www.easterntownships.org/" 
+        width="100%" 
+        height="600" 
+        style="border: 2px solid #14532d;">
+      </iframe>
+      <br>
+      <br>
+    <div class="content-box">
+      <div class="text">
+        <p data-fr="<b>Originaire du Québec</b>, je viens des Cantons-de-l'Est. J'ai grandi à Bromont, puis à Granby. Mon cœur est toujours là-bas. Avec une belle histoire, des paysages magnifiques, des vignobles épatants et des montagnes à monter ou à descendre, il y en a pour tous les goûts dans mon coin de pays. Si vous n'y êtes jamais allés, ben j'vous le conseille !
+" data-en="I’m <b>originally from Quebec</b> — specifically the Eastern Townships. I grew up in Bromont and then Granby. My heart is still there. With a rich history, stunning scenery, amazing vineyards, and mountains to climb or ski down, there’s something for everyone in my neck of the woods. If you’ve never been, I highly recommend it!">
+          <b>Originaire du Québec</b>, je viens des Cantons-de-l'Est. J'ai grandi à Bromont, puis à Granby. Mon cœur est toujours là-bas. Avec une belle histoire, des paysages magnifiques, des vignobles épatants et des montagnes à monter ou à descendre, il y en a pour tous les goûts dans mon coin de pays. Si vous n'y êtes jamais allés, ben j'vous le conseille !
+        </p>
       </div>
-      <p class="problem">
-        <strong>Problème —</strong> décris en une phrase ce que tu cherchais à résoudre et pourquoi c'est intéressant.
-      </p>
-      <p class="approach">
-        <strong>Approche —</strong> VQE / QAOA / autre, backend utilisé, profondeur de circuit, ansatz choisi.
-      </p>
-      <p class="results">
-        <strong>Résultats —</strong> fidélité obtenue, comparaison avec une baseline classique, limites observées (bruit, décohérence...).
-      </p>
-      <div class="project-links">
-        <a href="#">Code →</a>
-        <a href="#">Notes techniques →</a>
+    </div>
+    <h1 data-en="Wild mushroom picking" data-fr="La cueillette de champignons sauvages">Mushrooms</h1>
+    <div class="content-box">
+      <div class="text">
+        <p data-fr="J'ai toujours adoré me promener en forêt. Alors, lorsque j'ai cueilli des champignons pour la première fois, j'ai développé une véritable passion pour la mycologie. Par leurs couleurs, leurs odeurs, leurs plis ou encore leurs pores, les champignons me fascinent, et leur cueillette est pour moi un grand moment de détente.<br><br> Je garde toujours les yeux rivés au sol, à la recherche de chanterelles ou de trompettes-de-la-mort, un champignon délicieux, mais plutôt rare. La photo montre l'un de mes champignons préférés : l'amanite tue-mouches. C'est un magnifique champignon que l'on trouve souvent dans nos forêts au début de l'été.<br><br> Attention toutefois : il est délirant et toxique. Ne l'essaie surtout pas !
+" data-en="I've always loved walking through the forest. So, when I picked mushrooms for the first time, I developed a real passion for mycology. Their colors, aromas, gills, and pores all fascinate me, and foraging has become one of my favorite ways to relax.<br><br> I always keep my eyes fixed on the forest floor, searching for chanterelles or black trumpets, a delicious but rather rare mushroom. The photo shows one of my favorite mushrooms: the fly agaric. It's a beautiful mushroom that's often found in our forests in early summer.<br><br> Be careful, though—it is both toxic and hallucinogenic. Don't even think about trying it!
+"></p>
       </div>
-    </article>
-
-    <article class="project">
-      <div class="project-head">
-        <h3>Nom du projet 2</h3>
-        <span class="backend">Simulateur · Aer</span>
+      <div class="photo">
+        <img src="images/amanite.jpg" alt="L'amanite tumouche">
       </div>
-      <p class="problem">
-        <strong>Problème —</strong> [à compléter]
-      </p>
-      <p class="approach">
-        <strong>Approche —</strong> [à compléter]
-      </p>
-      <p class="results">
-        <strong>Résultats —</strong> [à compléter]
-      </p>
-      <div class="project-links">
-        <a href="#">Code →</a>
-      </div>
-    </article>
+    </div>
 
   </section>
+  <section id="quantum-projects" class="content-section"><!-- Quantum Projects --></section>
+  <section id="hackathons" class="content-section"><!-- Hackathons --></section>
+  <section id="empire-estrie" class="content-section"><!-- EMPIRE Estrie --></section>
+</div>
 
-  <div class="node" aria-hidden="true"></div>
+<br>
+<br>
 
-  <section class="contact" id="contact">
-    <h2><span class="tag">03</span> Contact</h2>
-    <p>Toujours ouvert·e à discuter algorithmes quantiques, hardware NISQ, ou collaborations.</p>
-    <p class="contact-links">
-      <a href="mailto:ton.email@exemple.com">ton.email@exemple.com</a>
-      <a href="https://github.com/Laur1er" target="_blank" rel="noopener">github.com/Laur1er</a>
-    </p>
-  </section>
-
-</main>
-
-<footer>
-  <p>Construit à la main. Dernière mesure de l'état : <span id="year"></span>.</p>
-</footer>
+</div>
 
 <script>
-  document.getElementById('year').textContent = new Date().getFullYear();
+  function setLanguage(lang) {
+    document.querySelectorAll('[data-fr]:not(img)').forEach(el => {
+      el.innerHTML = el.dataset[lang];
+    });
+    document.querySelectorAll('img[data-fr]').forEach(img => {
+      img.alt = img.dataset[lang];
+    });
+    document.querySelectorAll('.lang-switch button').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+    localStorage.setItem('preferredLang', lang);
+  }
+
+  document.querySelectorAll('.lang-switch button').forEach(btn => {
+    btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
+  });
+
+  const saved = localStorage.getItem('preferredLang');
+  if (saved) setLanguage(saved);
+</script>
+
+<script>
+  document.querySelectorAll('.menu a').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetId = link.dataset.target;
+      const target = document.getElementById(targetId);
+
+      document.querySelectorAll('.content-section.active').forEach(sec => {
+        if (sec.id !== targetId) sec.classList.remove('active');
+      });
+
+      target.classList.toggle('active');
+    });
+  });
 </script>
 
 </body>
