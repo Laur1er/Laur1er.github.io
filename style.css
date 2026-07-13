@@ -95,3 +95,77 @@ body {
 .lang-switch button.active {
   background: #14532d;
 }
+
+/* Rendre les images et iframes responsives partout */
+img {
+  max-width: 100%;
+  height: auto;
+}
+iframe {
+  max-width: 100%;
+}
+
+/* ===== TABLETTE ET MOBILE (768px et moins) ===== */
+@media (max-width: 768px) {
+  .page {
+    padding: 12px;
+    padding-top: 60px; /* laisse la place au lang-switch fixe */
+  }
+
+  .content-box {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .text {
+    font-size: 1.1rem;
+  }
+
+  .photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo img {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .menu a {
+    flex: 1 1 50%;
+    font-size: 1rem;
+    padding: 14px 6px;
+    border-bottom: 2px solid #fff;
+  }
+
+  .menu a:nth-child(2) {
+    border-right: none;
+  }
+}
+
+/* ===== PETIT MOBILE (480px et moins) ===== */
+@media (max-width: 480px) {
+  .text {
+    font-size: 1rem;
+  }
+
+  .menu a {
+    flex: 1 1 100%;
+    border-right: none;
+  }
+
+  .lang-switch {
+    top: 8px;
+    right: 8px;
+  }
+  .lang-switch button {
+    padding: 4px 8px;
+    font-size: 0.85rem;
+  }
+}
