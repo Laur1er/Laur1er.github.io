@@ -1,0 +1,38 @@
+---
+title: À propos
+layout: layout.njk
+---
+{% set item = home %}
+{% include "content-box.njk" %}
+<br>
+
+<nav class="menu">
+  {% for item in nav %}
+  <a href="#" data-target="{{ item.target }}"{% if item.fr %} data-fr="{{ item.fr }}" data-en="{{ item.en }}"{% endif %}>{{ item.fr or item.label }}</a>
+  {% endfor %}
+</nav>
+
+<div class="sections">
+  <section id="about-me" class="content-section">
+    {% set cards = aboutMe %}
+    {% include "cards.njk" %}
+  </section>
+
+  <section id="quantum-projects" class="content-section">
+    {% set cards = quantumProjects %}
+    {% include "cards.njk" %}
+  </section>
+
+  <section id="hackathons" class="content-section">
+    {% set cards = hackathons %}
+    {% include "cards.njk" %}
+  </section>
+
+  <section id="empire-estrie" class="content-section">
+    {% set cards = empireEstrie %}
+    {% include "cards.njk" %}
+  </section>
+</div>
+
+<br>
+<br>

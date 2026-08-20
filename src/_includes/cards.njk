@@ -1,0 +1,30 @@
+{# Expects `cards` in scope: array of { heading?, iframe?, text?, photo?, alt?, links? } #}
+{% for card in cards %}
+  {% if card.iframe %}
+    <h1 data-fr="{{ card.heading.fr }}" data-en="{{ card.heading.en }}">{{ card.heading.fr }}</h1>
+    <iframe
+      src="{{ card.iframe }}"
+      width="100%"
+      height="400"
+      style="border: 2px solid #14532d; max-width: 100%;">
+    </iframe>
+    <br><br>
+  {% elif card.text or card.photo %}
+    {% if card.heading %}
+    <h1 data-fr="{{ card.heading.fr }}" data-en="{{ card.heading.en }}">{{ card.heading.fr }}</h1>
+    {% endif %}
+    {% set item = card %}
+    {% include "content-box.njk" %}
+  {% elif card.heading %}
+    <h1 data-fr="{{ card.heading.fr }}" data-en="{{ card.heading.en }}">{{ card.heading.fr }}</h1>
+    <div class="content-box"></div>
+  {% endif %}
+
+  {% if card.links %}
+    <div class="content-box">
+      {% for link in card.links %}
+      <h2>{% if link.prefix %}{{ link.prefix }} : {% endif %}<a href="{{ link.url }}">{{ link.text }}</a></h2>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}

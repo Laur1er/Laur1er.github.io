@@ -1,0 +1,22 @@
+{# Expects `item` in scope: { heading?: {fr,en}, text?: {fr,en}, photo?, alt?: {fr,en}, photoFirst?: bool } #}
+{% set textHtml %}
+  <div class="text">
+    {% if item.heading %}
+    <h2 data-fr="{{ item.heading.fr }}" data-en="{{ item.heading.en }}">{{ item.heading.fr }}</h2>
+    {% endif %}
+    {% if item.text %}
+    <p data-fr="{{ item.text.fr }}" data-en="{{ item.text.en }}">{{ item.text.fr | safe }}</p>
+    {% endif %}
+  </div>
+{% endset %}
+{% set photoHtml %}
+  {% if item.photo %}
+  <div class="photo">
+    <img src="{{ item.photo }}"
+      {% if item.alt %}data-fr="{{ item.alt.fr }}" data-en="{{ item.alt.en }}" alt="{{ item.alt.fr }}"{% else %}alt=""{% endif %}>
+  </div>
+  {% endif %}
+{% endset %}
+<div class="content-box">
+  {% if item.photoFirst %}{{ photoHtml | safe }}{{ textHtml | safe }}{% else %}{{ textHtml | safe }}{{ photoHtml | safe }}{% endif %}
+</div>
