@@ -1,0 +1,41 @@
+[
+  {
+    "heading": { "fr": "Status", "en": "Status" },
+    "text": {
+      "fr": "Je suis actuellement à la <b>recherche d'un stage</b> pour <b>l'hiver 2027</b> qui me permettrait d'approfondir mes connaissances en apprentissage automatique quantique, en algorithmes quantiques ou dans tout autre domaine connexe.",
+      "en": "I am currently <b>seeking an internship</b> for the <b>winter of 2027</b> that would allow me to further develop my knowledge in quantum machine learning, quantum algorithms, or any other related field."
+    }
+  },
+  {
+    "heading": { "fr": "Mon coin de pays:", "en": "Where I am from:" },
+    "iframe": "https://www.easterntownships.org/"
+  },
+  {
+    "text": {
+      "fr": "<b>Originaire du Québec</b>, je viens des Cantons-de-l'Est. J'ai grandi à Bromont, puis à Granby. Avec une belle histoire, des paysages magnifiques, des vignobles épatants et des montagnes à monter ou à descendre, il y en a pour tous les goûts dans mon coin de pays. Si vous n'y êtes jamais allés, ben j'vous le conseille !",
+      "en": "I'm <b>originally from Quebec</b> — specifically the Eastern Townships. I grew up in Bromont and then Granby. With a rich history, stunning scenery, amazing vineyards, and mountains to climb or ski down, there's something for everyone in my neck of the woods. If you've never been, I highly recommend it!"
+    }
+  },
+  {
+    "heading": { "fr": "La cueillette de champignons sauvages", "en": "Wild mushroom picking" },
+    "text": {
+      "fr": "J'ai toujours adoré me promener en forêt. Alors, lorsque j'ai cueilli des champignons pour la première fois, j'ai développé une véritable passion pour la mycologie. Par leurs couleurs, leurs odeurs, leurs plis ou encore leurs pores, les champignons me fascinent, et leur cueillette est relaxante.<br><br> Je garde toujours les yeux rivés au sol, à la recherche de chanterelles ou de trompettes-de-la-mort, un champignon délicieux, mais plutôt rare. La photo montre l'un de mes champignons préférés : l'amanite tue-mouches. C'est un magnifique champignon que l'on trouve souvent dans nos forêts au début de l'été.<br><br> Attention : il est délirant et toxique. Pas le genre de buzz qu'on aime !",
+      "en": "I've always loved walking through the forest. So, when I picked mushrooms for the first time, I developed a real passion for mycology. Their colors, aromas, gills, and pores all fascinate me, and foraging has become one of my favorite ways to relax.<br><br> I always keep my eyes fixed on the forest floor, searching for chanterelles or black trumpets, a delicious but rather rare mushroom. The photo shows one of my favorite mushrooms: the fly agaric. It's a beautiful mushroom that's often found in our forests in early summer.<br><br> Be careful, though—it is both toxic and hallucinogenic. Don't even think about trying it!"
+    },
+    "photo": "/images/amanite.jpg",
+    "alt": { "fr": "L'amanite tumouche", "en": "L'amanite tumouche" }
+  },
+  {
+    "heading": { "fr": "La jonglerie", "en": "Juggling" },
+    "text": {
+      "fr": "J'ai toujours mes 3 balles de jonglerie avec moi. Le truc cool avec la jonglerie: tu peux jongler partout! Figure avec les pieds, la tête ou juste les mains, je me débrouille quand même. Arrête de scroller, prend-toi 3 balles!",
+      "en": "I always have my three juggling balls with me. The fun thing about juggling is that you can do it anywhere! Whether using your feet, your head, or just your hands, I manage to make it work. Stop scrolling and grab three balls!"
+    }
+  },
+  {
+    "heading": { "fr": "Parcours professionnel", "en": "Professional Background" }
+  },
+  {
+    "heading": { "fr": "Contact", "en": "Contact" }
+  }
+]

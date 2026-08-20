@@ -1,0 +1,6 @@
+[
+  { "target": "about-me", "fr": "À propos de moi", "en": "About me" },
+  { "target": "quantum-projects", "fr": "Projets quantiques", "en": "Quantum projects" },
+  { "target": "hackathons", "label": "Hackathons" },
+  { "target": "empire-estrie", "label": "EMPIRE Estrie" }
+]

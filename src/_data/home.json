@@ -1,0 +1,15 @@
+{
+  "heading": {
+    "fr": "Bienvenue sur mon portfolio!",
+    "en": "Welcome to my portfolio!"
+  },
+  "text": {
+    "fr": "Je m'appelle <b>Laurier Perron</b>, je suis étudiant à l'Université de Sherbrooke en <b>sciences de l'information quantique</b>. Ici, tu découvriras ce que je fais, ce que j'aime faire dans mes temps libres, et avec un peu de chance tu apprendras des trucs sur le quantique!<br><br>Bon, assez jasé. Vas-y, explore!",
+    "en": "My name is <b>Laurier Perron</b>, I am a student at the Université de Sherbrooke studying <b>quantum information science</b>. Here, you'll find out what I've been up to, what I do in my free time, and hopefully you'll learn some quantum stuff!<br><br>Now, I'm done with the chitchat. Go on, explore!"
+  },
+  "photo": "/images/profil.png",
+  "alt": {
+    "fr": "C'est moi, au cas où t'aurais pas encore compris",
+    "en": "This is me, in case you haven't figured yet"
+  }
+}
