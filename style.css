@@ -80,6 +80,14 @@ body {
   color: #14532d;
 }
 
+/* Date sous le titre d'un bloc (hackathons) */
+.meta {
+  margin: -6px 0 14px;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #555;
+}
+
 .photo img {
   width: 320px;
   height: auto;
