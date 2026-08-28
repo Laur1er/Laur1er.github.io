@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>À propos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <div class="lang-switch">
+    <button data-lang="fr" class="active">FR</button>
+    <button data-lang="en">EN</button>
+  </div>
+
+  <div class="content-box">
+    <div class="text">
+      <h2 data-fr="Bienvenue sur mon portfolio!" data-en="Welcome to my portfolio!">
+        Welcome to my portfolio!
+      </h2>
+      <p data-fr="Je m'appelle <b>Laurier Perron</b>, je suis étudiant à l'Université de Sherbrooke en <b>sciences de l'information quantique</b>. Ici, tu découvriras ce que je fais, ce que j'aime faire dans mes temps libres, et avec un peu de chance tu apprendras des trucs sur le quantique!<br><br>Bon, assez jasé. Vas-y, explore!"
+         data-en="My name is <b>Laurier Perron</b>, I am a student at the Université de Sherbrooke studying <b>quantum information science</b>. Here, you'll find out what I've been up to, what I do in my free time, and hopefully you'll learn some quantum stuff!<br><br>Now, I'm done with the chitchat. Go on, explore!">
+        My name is <b>Laurier Perron</b>, I am a student at the Université de Sherbrooke studying <b>quantum information science</b>. 
+        Here, you'll find out what I've been up to, what I do in my free time, and hopefully you'll learn some quantum stuff!
+        <br>
+        <br>
+        Now, I'm done with the chitchat. Go on, explore!
+      </p>
+    </div>
+    <div class="photo">
+      <img src="images/profil.png" 
+           data-fr="C'est moi, au cas où t'aurais pas encore compris" 
+           data-en="This is me, in case you haven't figured yet"
+           alt="This is me, in case you haven't figured yet">
+    </div>
+</div>
+<br>
+
+<nav class="menu">
+  <a href="#" data-target="professionnel" data-fr="Professionnel" data-en="Professional">Professionnel</a>
+  <a href="#" data-target="personnel" data-fr="Personnel" data-en="Personal">Personnel</a>
+  <a href="#" data-target="projets" data-fr="Projets" data-en="Projects">Projets</a>
+  <a href="#" data-target="hackathon" data-fr="Hackathon" data-en="Hackathon">Hackathon</a>
+  <a href="#" data-target="empire-estrie" data-fr="EMPIRE Estrie" data-en="EMPIRE Estrie">EMPIRE Estrie</a>
+</nav>
+
+<div class="sections">
+  <section id="professionnel" class="content-section">
+    <!-- Professionnel -->
+     <h1 data-fr="Statut" data-en="Status">Status</h1>
+     <div class="content-box status-box">
+      <div class="text" data-en="I am <b>looking for an internship</b> for the <b>summer of 2027</b> in <b>quantum information</b>."
+     data-fr="Je suis à la <b>recherche d'un stage</b> pour <b>l'été 2027</b> en <b>information quantique</b>."></div>
+     </div>
+
+    <h1 data-fr="Curriculum vitæ" data-en="Resume">Curriculum vitæ</h1>
+     <div class="cv-box">
+       <iframe id="cv-frame" class="cv-frame" src="cv/Laurier_Perron_CV_FR.pdf" title="CV"></iframe>
+       <div class="cv-actions">
+         <a id="cv-download" class="cv-download" href="cv/Laurier_Perron_CV_FR.pdf" download
+            data-fr="⬇ Télécharger le PDF" data-en="⬇ Download the PDF">⬇ Télécharger le PDF</a>
+       </div>
+     </div>
+
+    <h1 data-fr="Contact" data-en="Contact"></h1>
+     <div class="content-box">
+       <ul class="contact-list">
+         <li><span data-fr="Téléphone" data-en="Phone">Téléphone</span> :
+             <a href="tel:+14502044189">450-204-4189</a></li>
+         <li><span data-fr="Adresse professionnelle" data-en="Professional email">Adresse professionnelle</span> :
+             <a href="mailto:laurier.perron@usherbrooke.ca">laurier.perron@usherbrooke.ca</a></li>
+         <li>GitHub :
+             <a href="https://github.com/Laur1er" target="_blank" rel="noopener">github.com/Laur1er</a></li>
+         <li>LinkedIn :
+             <a href="https://www.linkedin.com/in/laurier-perron-8877ba389/" target="_blank" rel="noopener">linkedin.com/in/laurier-perron</a></li>
+       </ul>
+     </div>
+
+  </section>
+
+  <section id="personnel" class="content-section">
+    <!-- Personnel -->
+     <br><br>
+    <div class="content-box status-box">
+      <div class="text" data-fr="J'ai beaucoup de passions et d'intérêts, en voici un aperçu !"
+       data-en="I have many passions and interests — here's a glimpse!"></div>
+    </div>
+
+    <h1 data-en="Wild mushroom picking" data-fr="La cueillette de champignons sauvages">Mushrooms</h1>
+    <div class="content-box">
+      <div class="text">
+        <p data-fr="J'ai <b>toujours adoré me promener en forêt</b>. Alors, lorsque j'ai cueilli des champignons pour la première fois, j'ai développé une véritable passion pour la <b>mycologie</b>. Par leurs couleurs, leurs odeurs, leurs plis ou encore leurs pores, les champignons me fascinent, et leur cueillette est relaxante.<br><br> Je garde toujours les yeux rivés au sol, à la recherche de <b>chanterelles de feu</b> ou de <b>trompettes-de-la-mort</b>, un champignon délicieux, mais plutôt rare. La photo montre l'un de mes champignons préférés : <b>l'amanite tue-mouches</b>. C'est un magnifique champignon que l'on trouve souvent dans nos forêts au début de l'été.<br><br> <b>Attention</b> : il est délirant et toxique. Pas le genre de buzz qu'on aime !
+" data-en="I've <b>always loved walking in the forest</b>. So, when I picked mushrooms for the first time, I developed a real passion for <b>mycology</b>. Their colors, aromas, gills, and pores all fascinate me, and foraging has become one of my favorite ways to relax.<br><br> I always keep my eyes fixed on the forest floor, searching for <b>chanterelles</b> or <b>black trumpets</b>, a delicious but rather rare mushroom. The photo shows one of my favorite mushrooms: <b>the fly agaric</b>. It's a beautiful mushroom that's often found in our forests in early summer.<br><br> <b>Careful</b>: it is both toxic and hallucinogenic. Don't even think about trying it!
+"></p>
+      </div>
+      <div class="photo">
+        <img src="images/amanite.jpg" alt="L'amanite tumouche">
+      </div>
+    </div>
+    <h1 data-fr="La jonglerie" data-en="Juggling">Juggling</h1>
+    <div class="content-box">
+      <div class="text" data-fr="<b>J'ai toujours mes 3 balles de jonglerie avec moi</b>. Le truc cool avec la jonglerie: <b>je peux jongler partout!</b> Figure avec les pieds, la tête ou juste les mains, je me débrouille quand même. <b>Je fais ça au lieu de scroller!</b> "
+      data-en="<b>I always have my three juggling balls with me</b>. The fun thing about juggling is that <b>I can do it anywhere!</b> Whether using my feet, my head, or just my hands, I manage to make it work. <b>I don't scroll, I juggle!</b>">
+
+      </div>
+
+    </div>
+
+    <h1 data-fr="Planche à neige" data-en="Snowboarding">Planche à neige</h1>
+    <div class="content-box">
+      <div class="text"
+        data-fr="<b>Je viens de Bromont</b> donc nécessairement, j'aime les sports d'hiver. <b>Mon préféré, c'est de loin le snow!</b> Je suis le plus souvent à la montagne possible, parce qu'il faut en profiter de l'hiver! En plus, j'habite directement en bas du <b>mont Bellevue</b>, à Sherbrooke. Pas besoin de le dire : <b>j'y vais chaque soir!</b><br><br>L'hiver, en plus d'être vraiment <i>fun</i>, la planche à neige est aussi mon gagne-pain. Je construis et entretiens des <b>snowparks urbains</b> dans plusieurs villes <b>de l'Estrie jusqu'à Montréal</b> avec SnowTech depuis plus de 3 ans.<br><br>N'essayez pas de me faire skier, j'en ai fait pendant 12 ans. <b>Depuis que j'ai changé, je suis plus heureux!</b> x)"
+        data-en="<b>I'm from Bromont</b>, so naturally I love winter sports. <b>My favourite, by far, is snowboarding!</b> I'm on the mountain as often as I possibly can &mdash; you have to make the most of winter! On top of that, I live right at the foot of <b>Mont Bellevue</b>, in Sherbrooke. Needless to say: <b>I go every night!</b><br><br>Beyond being genuinely <i>fun</i>, snowboarding is also how I make a living. For over 3 years I've been building and maintaining <b>urban snowparks</b> in several cities <b>from the Eastern Townships all the way to Montreal</b> with SnowTech.<br><br>Don't try to get me back on skis &mdash; I did that for 12 years. <b>Since I made the switch, I'm a happier person!</b> x)"></div>
+      <div class="photo">
+        <video class="clip" controls muted playsinline preload="metadata">
+          <source src="images/Videosnow.mp4" type="video/mp4">
+          <a href="images/Videosnow.mp4" data-fr="Télécharger la vidéo" data-en="Download the video">Télécharger la vidéo</a>
+        </video>
+      </div>
+    </div>
+
+    <h1 data-fr="Lectures récentes" data-en="Recent readings">Lectures récentes</h1>
+    <div class="content-box book-box">
+      <div class="rating">10/10</div>
+      <div class="text">
+        <h3>Traumathys <span class="book-author">— David Goudreault</span></h3>
+        <p data-fr="J'ai découvert David Goudreault pour la première fois pendant la pandémie, avec ses lettres ouvertes, puis j'ai assisté à son spectacle qui m'avait assez marqué. <i>Traumathys</i> est son tout dernier roman et aborde la réalité de trop de gens : l'itinérance. Son style d'écriture est singulier et ma familiarité avec les lieux de Montréal dans l'histoire a rendu l'expérience de lecture encore plus personnelle. Je recommande."
+        data-en="I first discovered David Goudreault during the pandemic, through his open letters, and later saw his stage show, which left a real impression on me. <i>Traumathys</i> is his latest novel and tackles a reality that affects far too many people: homelessness. His writing style is distinctive, and my familiarity with the Montreal locations in the story made the reading experience even more personal. I recommend it."></p>
+      </div>
+      <div class="photo">
+        <img src="images/traumathys.jpg" alt="Traumathys, de David Goudreault">
+      </div>
+    </div>
+    <div class="content-box book-box">
+      <div class="rating">9/10</div>
+      <div class="text">
+        <h3>Obsédée <span class="book-author">— Geneviève Jetté</span></h3>
+        <p data-fr="J'ai eu l'intérêt de ce livre seulement par ma maman, qui souhaitait l'offrir à ma sœur. C'est une belle histoire qui nous plonge au cœur d'un sujet qui concerne beaucoup de gens dans notre société : vivre avec un TOC. C'est bien vulgarisé, avec une belle histoire. Je peux dire qu'après ce livre, je suis plus outillé à comprendre les gens atteints d'un trouble obsessionnel compulsif. Je recommande."
+        data-en="I only became interested in this book through my mom, who wanted to give it to my sister. It's a moving story that takes us to the heart of an issue many people in our society face: living with OCD. It's clearly explained and wrapped in a lovely narrative. After reading it, I feel better equipped to understand people living with obsessive-compulsive disorder. I recommend it."></p>
+      </div>
+      <div class="photo">
+        <img src="images/obsedee.jpg" alt="Obsédée">
+      </div>
+    </div>
+
+    <h1 data-fr="Réseaux sociaux" data-en="Social media">Réseaux sociaux</h1>
+    <div class="content-box">
+      <ul class="contact-list">
+        <li>YouTube :
+            <a href="https://www.youtube.com/@Laurrrrrrier" target="_blank" rel="noopener">@Laurrrrrrier</a></li>
+        <li>Instagram :
+            <a href="https://www.instagram.com/laur1er/?hl=fr" target="_blank" rel="noopener">@laur1er</a></li>
+        <li>Discord : laulau8643</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section id="projets" class="content-section">
+    <!-- Projets -->
+    <h1 data-fr="Implémentation quantique" data-en="Quantum implementation">Implémentation quantique</h1>
+
+    <div class="content-box project-box">
+      <div class="text">
+        <h3 data-fr="Estimateur de valeurs moyennes" data-en="Expectation value estimator">Estimateur de valeurs moyennes</h3>
+        <p data-fr="Afin de comprendre la mode des <i>Classical Shadows</i>, j'ai fait l'<b>implémentation d'un estimateur</b> de valeurs moyennes avec <b>Qiskit</b>. Cette technique permet de réduire le nombre de mesures nécessaires en prenant des <i>snapshots</i> de l'état quantique dans plusieurs bases aléatoires. Deux techniques sont disponibles : <b>la première utilise la base des transformations de Pauli pour les observables locaux</b>, et <b>la deuxième des transformations de Clifford pour les observables globaux</b>."
+           data-en="To get a feel for the <i>Classical Shadows</i> trend, I built an <b>expectation-value estimator</b> with <b>Qiskit</b>. The technique reduces the number of measurements required by taking <i>snapshots</i> of the quantum state in several random bases. Two variants are available: the <b>first uses the Pauli-transformation basis for local observables</b>, and <b>the second uses Clifford transformations for global observables</b>."></p>
+        <p class="repo">GitHub :
+          <a href="https://github.com/Laur1er/classical-shadow" target="_blank" rel="noopener">classical-shadow</a></p>
+      </div>
+      <div class="photo">
+        <a href="https://arxiv.org/abs/2002.08953" target="_blank" rel="noopener">
+          <img src="images/classicalshadows.png" alt="Article : Predicting many properties of a quantum system from very few measurements">
+        </a>
+      </div>
+    </div>
+
+    <div class="content-box project-box">
+      <div class="text">
+        <h3 data-fr="Block-encoding de matrice" data-en="Matrix block-encoding">Block-encoding de matrice</h3>
+        <p data-fr="Une <b>sous-routine intéressante</b> en algorithmique quantique consiste à devoir <b>encoder une matrice arbitraire</b> dans un circuit quantique. Le problème lié à ça est que, normalement, les transformations sur un ordinateur quantique doivent être <b>unitaires</b>. Pour ce faire, on commence par décomposer la matrice en <b>combinaison linéaire de chaînes de Pauli</b>, puis on applique des oracles afin que la matrice ne soit appliquée que dans le sous-espace où les qubits ancillaires sont dans l'état |0⟩. Ce projet implémente cette sous-routine avec <b>Qiskit</b> et constitue la première partie d'un plus gros projet sur la QSVT."
+           data-en="A <b>useful subroutine</b> in quantum algorithms is having to <b>encode an arbitrary matrix</b> into a quantum circuit. The catch is that operations on a quantum computer must normally be <b>unitary</b>. To get around this, the matrix is first decomposed into a <b>linear combination of Pauli strings</b>, then oracles are applied so that the matrix acts only on the subspace where the ancilla qubits are in the |0⟩ state. This project implements the subroutine with <b>Qiskit</b> and is the first part of a larger project on QSVT."></p>
+        <p class="repo">GitHub :
+          <a href="https://github.com/Laur1er/block-encoding" target="_blank" rel="noopener">block-encoding</a></p>
+      </div>
+      <div class="photo">
+        <a href="https://pennylane.ai/demos/tutorial_lcu_blockencoding" target="_blank" rel="noopener">
+          <img src="images/blockencoding.png" alt="PennyLane : Linear combination of unitaries and block encodings">
+        </a>
+      </div>
+    </div>
+
+    <div class="content-box project-box">
+      <div class="text">
+        <h3 data-fr="Arithmétique sur un ordinateur quantique" data-en="Arithmetic on a quantum computer">Arithmétique sur un ordinateur quantique</h3>
+        <p data-fr="À cause de la nature de l'ordinateur quantique, nous ne pouvons pas simplement faire de l'arithmétique de la même manière. Puisque les opérations doivent être <b>unitaires</b>, de nouvelles techniques ont été inventées pour parer à ce problème. Ce projet est une implémentation de <i>Quantum Networks for Elementary Arithmetic Operations</i>, l'un des premiers articles sur le sujet. C'est mon premier projet personnel."
+           data-en="Because of the nature of quantum computers, we can't simply do arithmetic the usual way. Since operations must be <b>unitary</b>, new techniques were devised to work around this. This project is an implementation of <i>Quantum Networks for Elementary Arithmetic Operations</i>, one of the first papers on the topic. It's my very first personal project."></p>
+        <p class="repo">GitHub :
+          <a href="https://github.com/Laur1er/basic_quantum_arithmetic" target="_blank" rel="noopener">basic_quantum_arithmetic</a></p>
+      </div>
+      <div class="photo">
+        <a href="https://arxiv.org/abs/quant-ph/9511018" target="_blank" rel="noopener">
+          <img src="images/arithmetic.png" alt="Article : Quantum Networks for Elementary Arithmetic Operations">
+        </a>
+      </div>
+    </div>
+
+    <h1 data-fr="Plateforme d'intégration 2026" data-en="2026 orientation platform">Plateforme d'intégration 2026</h1>
+
+    <div class="content-box project-box">
+      <div class="text">
+        <p data-fr="Pour la rentrée, mes collègues de classe et moi avons <b>préparé diverses activités</b> pour les nouveaux. Dans mon cas, <b>j'ai créé une application pour les guider durant la semaine, en plus de les encourager à participer à l'aide de défis</b>. Pendant 2 semaines, ils ont soumis des photos et des vidéos d'eux en train de relever toutes sortes de défis : <b>culinaires, d'exploration, physiques ou n'importe quoi vraiment</b>. Ils ont aussi pu interagir entre eux dans une discussion afin de commencer à se connaître avant la rentrée. <b>Je crois qu'ils ont aimé.</b>"
+           data-en="For the start of the school year, my classmates and I <b>put together various activities</b> for the newcomers. In my case, <b>I built an app to guide them through the week and to encourage participation through challenges</b>. Over two weeks, they submitted photos and videos of themselves taking on all kinds of challenges: <b>culinary, exploration, physical, or really anything</b>. They could also chat with one another to start getting to know each other before the term began. <b>I think they enjoyed it.</b>"></p>
+        <p class="repo">
+          GitHub : <a href="https://github.com/Laur1er/Integration-BSIQ26-27" target="_blank" rel="noopener">Integration-BSIQ26-27</a><br>
+          <span data-fr="Site" data-en="Website">Site</span> : <a href="https://integrationbsiq.online" target="_blank" rel="noopener">integrationbsiq.online</a>
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="hackathon" class="content-section">
+    <!-- Hackathon -->
+    <h1>YQuantum 2026</h1>
+    <div class="content-box">
+      <div class="text" data-fr="En avril 2026, j’ai eu la chance de participer au <b>YQuantum</b>, la compétition d’informatique quantique de <b>l’Université Yale, au Connecticut</b>. Avec mon équipe, nous avons choisi de relever le défi proposé par <b>QuantumCT</b>, qui consistait à utiliser des algorithmes quantiques pour résoudre un problème d’optimisation de livraisons de colis.<br><br>
+Nous avons réussi à soumettre un projet complet et performant. Notre approche consistait d’abord à décomposer le problème en plusieurs sous-problèmes plus simples (des Travelling Salesman Problems) à l’aide d’une méthode heuristique de <b>clustering</b>. Nous avons ensuite déterminé les trajets les plus optimaux en utilisant l’algorithme <b>Variational Quantum Eigensolver (VQE)</b>.<br><br>
+Ce hackathon était particulièrement enrichissant, puisque la problématique provenait d’un cas réel et que chacun des membres de l’équipe avait un rôle bien défini. Nous en sommes ressortis avec de nombreuses nouvelles connaissances, de très beaux souvenirs et, en prime, <b>une première place</b>."
+data-en="In April 2026, I had the opportunity to participate in <b>YQuantum, Yale University's quantum computing competition</b>, held in Connecticut. Together with my team, we chose to tackle the challenge proposed by <b>QuantumCT</b>, which involved using quantum algorithms to solve a parcel delivery optimization problem.<br><br>
+We successfully developed and submitted a complete and efficient solution. Our approach first decomposed the original problem into several smaller Travelling Salesman Problems (TSPs) using a heuristic <b>clustering</b> method. We then computed the optimal routes using the <b>Variational Quantum Eigensolver (VQE) algorithm</b>.<br><br>
+This hackathon was especially rewarding because it addressed a real-world optimization problem, and every team member had a well-defined role throughout the project. We came away with valuable new knowledge, unforgettable memories, and, to top it all off, <b>a first-place finish</b>.">
+</div>
+<div class="photo">
+  <img src="images/winner.jpg">
+</div>
+    </div>
+    <div class="content-box">
+      <h2>GitHub : <a href="https://github.com/PouliotAlexis/Quantum-Queb-Hackers---QuantumCT-RTRC-qBraid-Challenge.git">YQuantum Challenge</a></h2>
+      <h2>Youtube : <a href="https://www.youtube.com/@Laurrrrrrier/videos">Video</a></h2>
+    </div>
+  </section>
+  <section id="empire-estrie" class="content-section">
+    <!-- EMPIRE Estrie -->
+     <h1 data-en="What is it?" data-fr="Qu'est-ce que c'est?"></h1>
+     <div class="content-box">
+      <div class="photo">
+  <img src="images/Fsair.JPG">
+</div>
+      <div class="text" data-fr="<b>Empire Estrie</b> regroupe les trois magasins EMPIRE de Granby, Bromont et Sherbrooke. C'est mon commanditaire en planche à roulettes. Je représente l'équipe aussi bien lorsque je pratique le skateboard que lors de différents événements. Par exemple, au <b>Festival au Lac de Granby</b> ou à <b>la Fête du Lac des Nations de Sherbrooke</b>, je participe à des démonstrations dans la mini-rampe afin de promouvoir les magasins et de partager ma passion pour le skate. <br><br>Grâce à leur soutien, le skateboard fait partie intégrante de mon quotidien, et j'ai la chance de contribuer au développement de cette communauté qui me tient à cœur.
+" data-en="<b>Empire Estrie</b> brings together the three EMPIRE skate shops located in Granby, Bromont, and Sherbrooke. They are my skateboarding sponsor. I represent the team both while skateboarding and at various events. For example, during the <b>Festival au Lac in Granby</b> and the <b>Fête du Lac des Nations in Sherbrooke</b>, I perform demonstrations on the mini ramp to promote the shops and share my passion for skateboarding. <br><br>Thanks to their support, skateboarding has become an integral part of my daily life, and I am grateful for the opportunity to contribute to the growth of a community that means so much to me.">
+      </div>
+
+     </div>
+     <div class="content-box">
+      <h2><a href="https://www.instagram.com/reel/DZflsiKkXaX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Festival au Lac de Granby</a></h2>
+     </div>
+    
+  </section>
+</div>
+
+<br>
+<br>
+
+</div>
+
+<script>
+  function setLanguage(lang) {
+    document.querySelectorAll('[data-fr]:not(img)').forEach(el => {
+      el.innerHTML = el.dataset[lang];
+    });
+    document.querySelectorAll('img[data-fr]').forEach(img => {
+      img.alt = img.dataset[lang];
+    });
+    document.querySelectorAll('.lang-switch button').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+
+    const cvFile = lang === 'en'
+      ? 'cv/Laurier_Perron_CV_EN.pdf'
+      : 'cv/Laurier_Perron_CV_FR.pdf';
+    const cvFrame = document.getElementById('cv-frame');
+    const cvDownload = document.getElementById('cv-download');
+    if (cvFrame) cvFrame.src = cvFile;
+    if (cvDownload) cvDownload.href = cvFile;
+
+    document.documentElement.lang = lang;
+    localStorage.setItem('preferredLang', lang);
+  }
+
+  document.querySelectorAll('.lang-switch button').forEach(btn => {
+    btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
+  });
+
+  setLanguage(localStorage.getItem('preferredLang') || 'fr');
+</script>
+
+<script>
+  document.querySelectorAll('.menu a').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetId = link.dataset.target;
+      const target = document.getElementById(targetId);
+
+      document.querySelectorAll('.content-section.active').forEach(sec => {
+        if (sec.id !== targetId) sec.classList.remove('active');
+      });
+
+      target.classList.toggle('active');
+    });
+  });
+</script>
+
+</body>
+</html>
